@@ -97,7 +97,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener{
 
         if(gameOver){
             g.setColor(Color.WHITE);
-            g.setFont( new Font("Arial",Font.BOLD,50));
+            g.setFont( new Font("Ink Free",Font.BOLD,50));
             g.drawString("Game Over", 300, 300);
             g.setFont( new Font("Arial",Font.PLAIN,20));
             g.drawString("Press SPACE to Restart", 320, 350);
